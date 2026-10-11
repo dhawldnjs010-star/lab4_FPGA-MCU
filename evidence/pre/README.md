@@ -6,5 +6,5 @@
 - fig/     figures used in the report and figs.py that draws them from the VCD and fw_log.txt
 
 Reproduce (from the repo root):
-    iverilog -g2012 -o m.vvp fpga/mult_design.v fpga/mult_tb.sv && vvp m.vvp
+    cd fpga/mult_4bit && iverilog -g2012 -o m.vvp src/*.v sim/*.sv && vvp m.vvp
     gcc -Wall -Wextra -o h evidence/pre/fw/harness.c && ./h
