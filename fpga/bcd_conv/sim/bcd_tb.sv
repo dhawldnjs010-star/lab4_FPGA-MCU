@@ -1,5 +1,7 @@
 `timescale 1ns/1ps
 module tb;
+    // 파형 저장 (템플릿 요구): 수업 제공 TB에 이 한 블록만 추가했다.
+    initial begin $dumpfile("wave.vcd"); $dumpvars(0, tb); end
     reg [3:0] ten, one;
     wire [6:0] bin;
     wire valid;

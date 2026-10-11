@@ -1,0 +1,3 @@
+VCD info: dumpfile wave.vcd opened for output.
+PASS BCD: 100 valid and 156 invalid inputs
+/tmp/claude-0/-home-claude/ee6fdd1b-9a21-5d08-b854-f89baaec7628/scratchpad/ev/fpga2/bcd_conv/sim/bcd_tb.sv:17: $finish called at 256000 (1ps)

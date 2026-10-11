@@ -1,0 +1,5 @@
+{
+  "sources": ["src/bcd_design.v"],
+  "testbench": "sim/bcd_tb.sv",
+  "simulation_top": "tb"
+}

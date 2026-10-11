@@ -1,0 +1,2 @@
+FATAL: bcd_tb.sv:12: BCD valid
+       Time: 161000  Scope: tb

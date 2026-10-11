@@ -1,0 +1,3 @@
+VCD info: dumpfile wave.vcd opened for output.
+PASS multiplier: 256 input pairs
+/tmp/claude-0/-home-claude/ee6fdd1b-9a21-5d08-b854-f89baaec7628/scratchpad/ev/fpga2/mult_4bit/sim/mult_tb.sv:15: $finish called at 256000 (1ps)

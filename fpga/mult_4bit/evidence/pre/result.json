@@ -1,0 +1,11 @@
+{
+  "status": "SIMULATED",
+  "run": "run-f20917039aa9428f8c4629a7a36ab0a6",
+  "functional_correctness": "NOT_ASSESSED",
+  "inputs_sha256": {
+    "simulation.json": "2da397b2bdca7d6d1a956bbd2aa0effe6cf503662ad85e9c81fbfaa5c361f2ea",
+    "src/mult_design.v": "42d300a9c0224e6e44f0eec8594863ea1f7ff9c08658c9082c560d79d3ff2fd1",
+    "sim/mult_tb.sv": "c6bc4d5ac1df1d79f54daea2e71386fffeb18081860394fe3407c257de4e9961"
+  },
+  "wave_sha256": "f718f63bc9894024242d14e2750224bb4e39f97a314047d4a31c486bdccc39c2"
+}

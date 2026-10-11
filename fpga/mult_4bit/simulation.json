@@ -1,0 +1,5 @@
+{
+  "sources": ["src/mult_design.v"],
+  "testbench": "sim/mult_tb.sv",
+  "simulation_top": "tb"
+}
