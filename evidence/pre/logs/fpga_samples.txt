@@ -1,0 +1,12 @@
+MUL 0 x 0 = 0 (0x00)
+MUL 3 x 5 = 15 (0x0f)
+MUL 15 x 1 = 15 (0x0f)
+MUL 15 x 15 = 225 (0xe1)
+MUL 8 x 8 = 64 (0x40)
+BCD ten=0 one=0 -> bin=0 (0b0000000) valid=1
+BCD ten=1 one=2 -> bin=12 (0b0001100) valid=1
+BCD ten=4 one=7 -> bin=47 (0b0101111) valid=1
+BCD ten=9 one=9 -> bin=99 (0b1100011) valid=1
+BCD ten=10 one=0 -> bin=100 (0b1100100) valid=0
+BCD ten=0 one=10 -> bin=10 (0b0001010) valid=0
+BCD ten=15 one=15 -> bin=37 (0b0100101) valid=0

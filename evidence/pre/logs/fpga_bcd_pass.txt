@@ -1,0 +1,3 @@
+VCD info: dumpfile bcd.vcd opened for output.
+PASS BCD: 100 valid and 156 invalid inputs
+bcd_tb_vcd.sv:16: $finish called at 256000 (1ps)

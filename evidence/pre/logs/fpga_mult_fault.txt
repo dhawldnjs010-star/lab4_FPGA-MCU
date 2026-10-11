@@ -1,0 +1,2 @@
+FATAL: mult_tb.sv:11: multiply a=0 b=1 m=1
+       Time: 2000  Scope: tb
