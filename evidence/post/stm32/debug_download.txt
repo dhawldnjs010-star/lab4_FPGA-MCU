@@ -1,0 +1,25 @@
+# 2026-10-12 (KST) VS Code 디버그 콘솔에서 복사한 다운로드 기록 (발췌)
+STMicroelectronics ST-LINK GDB server. Version 7.14.0
+GNU gdb (GNU Tools for STM32 14.3.rel1.20251027-0700) 15.2.90.20241229-git
+Reading symbols from C:/Users/djawl/stm32_0/build/Debug/ece2_474.elf...
+load "C:/Users/djawl/stm32_0/build/Debug/ece2_474.elf"
+                       STM32CubeProgrammer v2.23.0
+ST-LINK FW  : V3J9M3
+Board       : NUCLEO-G474RE
+Voltage     : 3.29V
+SWD freq    : 8000 KHz
+Connect mode: Under Reset
+Reset mode  : Hardware reset
+Device ID   : 0x469
+Device name : STM32G47x/G48x/G414
+NVM size    : 512 KBytes
+Device CPU  : Cortex-M4
+Memory Programming ...
+  Size          : 25.23 KB
+  Address       : 0x08000000
+Erasing internal memory sectors [0 12]
+File download complete
+Time elapsed during download operation: 00:00:00.677
+Start address 0x08005878, load size 25836
+Temporary breakpoint 1, main () at C:/Users/djawl/stm32_0/Core/Src/main.c:89
+89	  HAL_Init();

@@ -53,8 +53,8 @@ void ece2_474_init(void)
  * 과제1: 내장 LED(PA5). 과제2는 아래 두 줄을
  * GPIO_OUT1_ece2_Pin, GPIO_OUT1_ece2_GPIO_Port
  * (PB0)로 바꾼다. */
-#define BLINK_LED_Pin        LED_ece2_Pin
-#define BLINK_LED_GPIO_Port  LED_ece2_GPIO_Port
+   #define BLINK_LED_Pin        GPIO_OUT1_ece2_Pin
+   #define BLINK_LED_GPIO_Port  GPIO_OUT1_ece2_GPIO_Port
 #define DEBOUNCE_MS          200U
 
 void polling_routine(void)
@@ -84,8 +84,8 @@ void polling_routine(void)
     if ((now - last_toggle_ms) >= interval_ms[idx])
     {
         last_toggle_ms = now;
-        HAL_GPIO_TogglePin(BLINK_LED_GPIO_Port,
-                           BLINK_LED_Pin);
+       HAL_GPIO_TogglePin(BLINK_LED_GPIO_Port,
+                      BLINK_LED_Pin);
     }
 }
 
